@@ -27,17 +27,15 @@ class CreateTableProducts extends Migration
         DB::table('users')
             ->insert([
                 [
-                    "article" => ,
-                    "name" => "admin",
-                    "status" => "available",
-                    "password" => Hash::make("admin"),
+                    "article" => "123456789",
+                    "name" => "product01",
+                    "status" => "available"
                 ],
                 [
-                    "role_id" => 2,
-                    "name" => "user1",
-                    "email" => "user1@mail.ru",
-                    "password" => Hash::make("user1"),
-                ]
+                    "article" => "987654321",
+                    "name" => "product02",
+                    "status" => "available"
+                ],
             ]);
 
 
